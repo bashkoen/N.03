@@ -1,4 +1,4 @@
-var surname = prompt('Введите вашу фамилию');
+var  surname = prompt('Введите вашу фамилию');
 while (surname == null || surname.length <= 1) {
   alert ("Нужно вписать фамилию, попробуйте еще раз");
   var surname = prompt('Введите вашу фамилию');
